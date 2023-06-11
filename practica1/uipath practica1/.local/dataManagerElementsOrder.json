@@ -1,0 +1,28 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "IA1_201709502.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ResultadoVariable&Sequence_1",
+        "tituloEnVivo&Sequence_13",
+        "emailDestinatario&Sequence_13",
+        "emailAsunto&Sequence_13",
+        "emailCuerpo&Sequence_13",
+        "variable1&Sequence_12",
+        "varCaptcha&Sequence_27"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
