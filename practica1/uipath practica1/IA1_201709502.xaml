@@ -138,7 +138,11 @@
                   <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="704,7836" sap2010:WorkflowViewState.IdRef="Sequence_13">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Default="UiPath_201709502" Name="tituloEnVivo" />
-                      <Variable x:TypeArguments="x:String" Default="son.anggelo@gmail.com" Name="emailDestinatario" />
+                      <Variable x:TypeArguments="x:String" Name="emailDestinatario">
+                        <Variable.Default>
+                          <Literal x:TypeArguments="x:String">anaisabelculajay@gmail.com</Literal>
+                        </Variable.Default>
+                      </Variable>
                       <Variable x:TypeArguments="x:String" Default="IA_Practica1_201709502" Name="emailAsunto" />
                       <Variable x:TypeArguments="x:String" Default="Se adjunta la contancia de votación" Name="emailCuerpo" />
                     </Sequence.Variables>
